@@ -55,7 +55,10 @@ b,strong{color:#fff}
 .counter{font-variant-numeric:tabular-nums;color:var(--muted);min-width:64px;text-align:center}
 .site-foot{position:fixed;bottom:0;inset-inline:0;height:var(--foot);display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:nowrap;overflow:hidden;
   background:#070605;color:var(--muted);font-size:13.5px;border-top:1px solid rgba(255,255,255,.08);z-index:21;padding:0 10px;white-space:nowrap}
-.site-foot .made{color:var(--gold);font-weight:700}
+.site-foot .made{color:var(--gold);font-weight:700;white-space:nowrap}
+.made .kita,.made-by .kita{font-weight:400;font-size:.8em;color:rgba(242,236,220,.55);letter-spacing:.02em}
+.made .kita .dot,.made-by .kita .dot{color:rgba(245,197,24,.5)}
+@media print{.made .kita{color:#777}}
 .site-foot a{color:var(--muted);text-decoration:none}.site-foot a:hover{color:#fff;text-decoration:underline}
 .site-foot .sep{opacity:.4}
 /* ---------- typography ---------- */
